@@ -2,7 +2,7 @@
 
 [Link to my solution](https://suhodoleca.github.io/article-preview-component/)
 
-![Design preview for the Article preview component coding challenge](assets\design/desktop-preview.jpg)
+![Design preview for the Article preview component coding challenge](assets/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
