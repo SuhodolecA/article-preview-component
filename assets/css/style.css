@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url("../fonts/Manrope-Medium.eot");
+  src: url("../fonts/Manrope-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope-Medium.woff2") format("woff2"), url("../fonts/Manrope-Medium.woff") format("woff"), url("../fonts/Manrope-Medium.ttf") format("truetype"), url("../fonts/Manrope-Medium.svg#Manrope-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url("../fonts/Manrope-Bold.eot");
+  src: url("../fonts/Manrope-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold.woff") format("woff"), url("../fonts/Manrope-Bold.ttf") format("truetype"), url("../fonts/Manrope-Bold.svg#Manrope-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.3rem;
+  background: #ecf2f8;
+}
+
+.wrapper {
+  padding: 0 2.4rem;
+}
+
+.article-component {
+  max-width: 73rem;
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: white;
+}
+
+.article-component__header {
+  margin-bottom: 3.5rem;
+}
+
+.article-component__header img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.article-component__main, .article-component__footer {
+  padding: 0 3rem;
+}
+
+.article-component__main {
+  margin-bottom: 3rem;
+}
+
+.article-component__main-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #48556a;
+  margin-bottom: 1.5rem;
+}
+
+.article-component__main-text {
+  color: #6d7f97;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+.article-component__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.article-component__footer-avatar {
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+.article-component__footer-avatar img {
+  vertical-align: middle;
+  max-width: 4rem;
+  border-radius: 50%;
+}
+
+.article-component__footer-info .name {
+  color: #48556a;
+  font-weight: 700;
+}
+
+.article-component__footer-info .date {
+  color: #6d7f97;
+}
+
+.article-component__footer .share-btn {
+  margin-left: auto;
+}
+
+.article-component__footer .share-btn button {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: #ecf2f8;
+  cursor: pointer;
+  outline: none;
+}
+
+.article-component__footer-overlay {
+  background-color: #48556a;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 3rem;
+  overflow: hidden;
+  max-height: 100%;
+  -webkit-transition: max-height .2s linear;
+  transition: max-height .2s linear;
+}
+
+.article-component__footer-overlay .share-btn button {
+  border: 0;
+  background-color: #6d7f97;
+  cursor: pointer;
+}
+
+.article-component__footer-overlay .share-btn .arrow-icon {
+  fill: white;
+}
+
+.article-component__footer-overlay.overlay-hide {
+  max-height: 0;
+}
+
+.article-component__footer .overlay-title {
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  color: #6d7f97;
+  margin-right: 2rem;
+}
+
+.article-component__footer .overlay-icons a + a {
+  margin-left: 1.5rem;
+}
+
+.article-component__footer .overlay-icons svg:hover > path {
+  fill: #6d7f97;
+}
+
+@media (min-width: 750px) {
+  .article-component {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .article-component__header {
+    margin-bottom: 0;
+  }
+  .article-component__main {
+    margin-top: 3.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
