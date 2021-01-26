@@ -1,7 +1,6 @@
 # Frontend Mentor - Article preview component
-
+[Link to my solution:](https://suhodoleca.github.io/article-preview-component/)
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
-[Link to my solution:](https://suhodoleca.github.io/article-preview-component/.)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
